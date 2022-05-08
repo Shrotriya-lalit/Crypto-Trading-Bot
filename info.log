@@ -1,0 +1,945 @@
+2022-03-27 17:50:16,346 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-03-27 17:50:16,350 INFO :: Binance Futures Client successfully initialized
+2022-03-27 17:50:16,953 INFO :: Binance connection opened
+2022-03-27 17:50:17,196 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-03-27 17:50:17,497 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-03-27 17:50:17,498 INFO :: Bitmex Client successfully initialized
+2022-03-27 17:50:18,303 INFO :: Bitmex connection opened
+2022-03-27 19:59:45,478 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-03-27 19:59:45,478 INFO :: Binance Futures Client successfully initialized
+2022-03-27 19:59:45,980 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-03-27 19:59:46,092 INFO :: Binance connection opened
+2022-03-27 19:59:46,249 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2022-03-27 19:59:46,249 INFO :: Bitmex Client successfully initialized
+2022-03-27 19:59:46,923 INFO :: Bitmex connection opened
+2022-03-27 20:14:22,489 INFO :: Binance Futures Client successfully initialized
+2022-03-27 20:14:23,094 INFO :: Binance connection opened
+2022-03-27 20:14:23,176 INFO :: Bitmex Client successfully initialized
+2022-03-27 20:14:23,861 INFO :: Bitmex connection opened
+2022-03-27 20:16:54,772 INFO :: Binance Futures Client successfully initialized
+2022-03-27 20:16:55,383 INFO :: Binance connection opened
+2022-03-27 20:16:55,482 INFO :: Bitmex Client successfully initialized
+2022-03-27 20:16:56,169 INFO :: Bitmex connection opened
+2022-03-27 20:47:38,718 INFO :: Binance Futures Client successfully initialized
+2022-03-27 20:47:39,332 INFO :: Binance connection opened
+2022-03-27 20:47:39,423 INFO :: Bitmex Client successfully initialized
+2022-03-27 20:47:40,132 INFO :: Bitmex connection opened
+2022-03-27 20:48:04,538 INFO :: Binance Futures Client successfully initialized
+2022-03-27 20:48:05,148 INFO :: Binance connection opened
+2022-03-27 20:48:05,696 INFO :: Bitmex Client successfully initialized
+2022-03-27 20:48:06,370 INFO :: Bitmex connection opened
+2022-03-27 22:57:30,379 INFO :: Binance Futures Client successfully initialized
+2022-03-27 22:57:30,980 INFO :: Binance connection opened
+2022-03-27 22:57:31,189 INFO :: Bitmex Client successfully initialized
+2022-03-27 22:57:31,888 INFO :: Bitmex connection opened
+2022-03-28 13:03:25,205 INFO :: Binance Futures Client successfully initialized
+2022-03-28 13:03:25,927 INFO :: Binance connection opened
+2022-03-28 13:03:26,187 INFO :: Bitmex Client successfully initialized
+2022-03-28 13:03:26,912 INFO :: Bitmex connection opened
+2022-03-28 13:42:40,802 INFO :: Binance Futures Client successfully initialized
+2022-03-28 13:42:41,423 INFO :: Binance connection opened
+2022-03-28 13:42:41,549 INFO :: Bitmex Client successfully initialized
+2022-03-28 13:42:42,260 INFO :: Bitmex connection opened
+2022-03-28 14:16:34,245 INFO :: Binance Futures Client successfully initialized
+2022-03-28 14:16:34,896 INFO :: Binance connection opened
+2022-03-28 14:16:35,658 INFO :: Bitmex Client successfully initialized
+2022-03-28 14:16:36,554 INFO :: Bitmex connection opened
+2022-03-29 13:09:25,179 INFO :: Binance Futures Client successfully initialized
+2022-03-29 13:09:25,933 INFO :: Bitmex Client successfully initialized
+2022-03-29 13:09:26,246 INFO :: Binance connection opened
+2022-03-29 13:09:26,741 INFO :: Bitmex connection opened
+2022-03-29 13:34:06,161 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025F4A06D490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2022-03-29 13:34:06,169 ERROR :: Connection error while making GET request to /fapi/v1/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/account?timestamp=1648541046165&signature=4cfec8def41cdcb75b73f0c5ddace2bec053ad5b5db662babc8ed58e9d3fdc5a (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025F4A06D790>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2022-03-29 13:34:06,169 INFO :: Binance Futures Client successfully initialized
+2022-03-29 13:34:06,173 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:06,173 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x0000025F4A022280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:06,173 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:06,177 ERROR :: Connection error while making GET request to /api/v1/instrument/active: HTTPSConnectionPool(host='testnet.bitmex.com', port=443): Max retries exceeded with url: /api/v1/instrument/active (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025F4A022940>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2022-03-29 13:34:06,181 ERROR :: Connection error while making GET request to /api/v1/user/margin: HTTPSConnectionPool(host='testnet.bitmex.com', port=443): Max retries exceeded with url: /api/v1/user/margin?currency=all (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025F4A06D9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2022-03-29 13:34:06,181 INFO :: Bitmex Client successfully initialized
+2022-03-29 13:34:06,402 ERROR :: Bitmex connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:06,402 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000025F4A022670>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:06,402 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:08,189 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:08,189 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x0000025F4A022280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:08,189 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:08,416 ERROR :: Bitmex connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:08,416 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000025F4A022670>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:08,416 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:10,201 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:10,201 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x0000025F4A022280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:10,201 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:10,433 ERROR :: Bitmex connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:10,433 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000025F4A022670>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:10,433 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:12,205 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:12,205 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x0000025F4A022280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:12,205 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:12,449 ERROR :: Bitmex connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:12,449 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000025F4A022670>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:12,449 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:14,221 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:14,221 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x0000025F4A022280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:14,221 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:14,465 ERROR :: Bitmex connection error: [Errno 11001] getaddrinfo failed
+2022-03-29 13:34:14,465 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000025F4A022670>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:14,465 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-29 13:34:40,482 INFO :: Binance Futures Client successfully initialized
+2022-03-29 13:34:41,575 INFO :: Binance connection opened
+2022-03-29 13:34:42,359 INFO :: Bitmex Client successfully initialized
+2022-03-29 13:34:44,214 INFO :: Bitmex connection opened
+2022-03-29 14:51:11,010 INFO :: Binance Futures Client successfully initialized
+2022-03-29 14:51:12,064 INFO :: Binance connection opened
+2022-03-29 14:51:12,284 INFO :: Bitmex Client successfully initialized
+2022-03-29 14:51:13,130 INFO :: Bitmex connection opened
+2022-03-30 17:24:03,092 INFO :: Binance Futures Client successfully initialized
+2022-03-30 17:24:04,441 INFO :: Bitmex Client successfully initialized
+2022-03-30 17:24:05,367 INFO :: Bitmex connection opened
+2022-03-30 17:24:28,814 INFO :: Binance Futures Client successfully initialized
+2022-03-30 17:24:29,619 INFO :: Bitmex Client successfully initialized
+2022-03-30 17:24:30,340 INFO :: Bitmex connection opened
+2022-03-30 17:24:49,838 ERROR :: Binance connection error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-03-30 17:24:49,838 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x00000172FF662280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-30 17:24:49,838 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-30 17:25:12,880 ERROR :: Binance connection error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-03-30 17:25:12,880 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x00000172FF662280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-30 17:25:12,880 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-30 17:25:35,997 ERROR :: Binance connection error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2022-03-30 17:25:35,997 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x00000172FF662280>>: _on_close() takes 2 positional arguments but 4 were given
+2022-03-30 17:25:35,997 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-03-30 17:26:27,656 INFO :: Binance Futures Client successfully initialized
+2022-03-30 17:26:28,884 INFO :: Binance connection opened
+2022-03-30 17:26:29,122 INFO :: Bitmex Client successfully initialized
+2022-03-30 17:26:29,953 INFO :: Bitmex connection opened
+2022-05-06 12:12:10,853 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:12:11,538 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-06 12:12:11,570 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:12:12,258 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651819331554&signature=52624b1bb45f13f6a20159991dc6104baaeb1b1067ed880041cbbbe5ea79f475 HTTP/1.1" 200 None
+2022-05-06 12:12:12,273 INFO :: Binance Futures Client successfully initialized
+2022-05-06 12:12:12,273 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-06 12:12:13,073 INFO :: Binance connection opened
+2022-05-06 12:12:13,088 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-05-06 12:12:13,405 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-05-06 12:12:13,696 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-06 12:12:14,004 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-05-06 12:12:14,004 INFO :: Bitmex Client successfully initialized
+2022-05-06 12:12:14,928 INFO :: Bitmex connection opened
+2022-05-06 12:13:56,672 INFO :: Binance: subscribing to: ethusdt@bookTicker
+2022-05-06 12:13:56,672 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:13:57,326 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-05-06 12:14:47,845 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:14:48,633 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-06 12:14:48,695 INFO :: Binance: subscribing to: btcusdt@aggTrade
+2022-05-06 12:15:04,072 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:15:04,087 INFO :: Getting Binance trade size...
+2022-05-06 12:15:04,088 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:15:04,814 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651819504087&signature=c57f5acf67524e22fcc1f987f9e1b9945996c107e267f322d09ad8bdf05d72c5 HTTP/1.1" 200 None
+2022-05-06 12:15:04,820 INFO :: Binance current USDT balance = 3000.0, trade size = 0.004
+2022-05-06 12:15:04,820 INFO :: Long signal on BTCUSDT 1m
+2022-05-06 12:15:04,820 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:15:05,119 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.004&type=MARKET&timestamp=1651819504820&signature=96927490f3785b6c6f88f6325f7e7a687d5476a20a5c1daf29eea9d8ff2d00b1 HTTP/1.1" 200 None
+2022-05-06 12:15:05,119 INFO :: Buy order placed on Binance | Status: new
+2022-05-06 12:15:07,141 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:15:07,682 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651819507140&symbol=BTCUSDT&orderId=3037863026&signature=90b4d42c3ffb7035cbf511ee5e87b407c5a88a2a69b86e2beac4394243d08f60 HTTP/1.1" 200 None
+2022-05-06 12:15:07,684 INFO :: Binance order status: filled
+2022-05-06 12:16:14,030 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:18:11,891 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000023AF9D52F10>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 12:18:11,891 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 12:18:12,096 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000023AF9D52F70>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 12:18:12,096 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 12:22:06,857 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:22:07,497 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-06 12:22:07,515 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:22:08,058 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651819927511&signature=12943d13a274289ea13b2c9c3e46f2b3da756171acf20bb14d25164d19f8a747 HTTP/1.1" 200 None
+2022-05-06 12:22:08,062 INFO :: Binance Futures Client successfully initialized
+2022-05-06 12:22:08,064 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-06 12:22:08,441 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-05-06 12:22:08,466 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-06 12:22:08,700 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-05-06 12:22:08,707 INFO :: Bitmex Client successfully initialized
+2022-05-06 12:22:08,810 INFO :: Binance connection opened
+2022-05-06 12:22:08,811 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-05-06 12:22:09,435 INFO :: Bitmex connection opened
+2022-05-06 12:23:09,123 INFO :: Binance: subscribing to: ethusdt@bookTicker
+2022-05-06 12:23:09,125 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:23:09,891 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-05-06 12:26:07,395 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:26:08,128 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=ETHUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-06 12:26:08,285 INFO :: Binance: subscribing to: ethusdt@aggTrade
+2022-05-06 12:27:01,749 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-06 12:27:01,770 INFO :: Getting Binance trade size...
+2022-05-06 12:27:01,770 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:27:02,446 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651820221770&signature=a896062d3280c10b4a613f972e0f73b6e155233c8124b8b3355aded6ef7450d1 HTTP/1.1" 200 None
+2022-05-06 12:27:02,454 INFO :: Binance current USDT balance = 2999.77743088, trade size = 0.109
+2022-05-06 12:27:02,454 INFO :: Long signal on ETHUSDT 1m
+2022-05-06 12:27:02,454 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:27:02,957 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.109&type=MARKET&timestamp=1651820222454&signature=285f00467aa48e91a03d7b823441b1bfacd0a969b49940ee6cf54ec6d92c8635 HTTP/1.1" 200 None
+2022-05-06 12:27:02,962 INFO :: Buy order placed on Binance | Status: new
+2022-05-06 12:27:04,968 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:27:05,225 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651820224968&symbol=ETHUSDT&orderId=854273220&signature=182c3f012261d267b3448c0fa81d45cdd24a9a58bcf545c0a08a45de255b9303 HTTP/1.1" 200 None
+2022-05-06 12:27:05,225 INFO :: Binance order status: filled
+2022-05-06 12:28:01,925 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-06 12:29:02,143 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-06 12:30:02,763 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-06 12:31:00,211 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-06 12:36:41,874 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:36:42,593 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-06 12:36:42,773 INFO :: Binance: subscribing to: btcusdt@aggTrade
+2022-05-06 12:36:43,286 INFO :: Getting Binance trade size...
+2022-05-06 12:36:43,291 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:36:43,597 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651820803286&signature=3e1aa9f74bba77ee62639dc068087fb32a217afcefd97a75f80e1af7131623b0 HTTP/1.1" 200 None
+2022-05-06 12:36:43,604 INFO :: Binance current USDT balance = 2999.65779074, trade size = 0.001
+2022-05-06 12:36:43,604 INFO :: Short signal on BTCUSDT 1m
+2022-05-06 12:36:43,609 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:36:44,109 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=SELL&quantity=0.001&type=MARKET&timestamp=1651820803604&signature=c8e2dae2068941ecf68251ee5952a7ed68515c393b939656eba365082d1702b4 HTTP/1.1" 200 None
+2022-05-06 12:36:44,114 INFO :: Sell order placed on Binance | Status: new
+2022-05-06 12:36:46,123 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:36:46,650 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651820806118&symbol=BTCUSDT&orderId=3037863992&signature=1198c4f779f4ff41f42623be63a78ce50bb1dbd7741e1dfebd697a3d20ae99b9 HTTP/1.1" 200 None
+2022-05-06 12:36:46,654 INFO :: Binance order status: filled
+2022-05-06 12:37:16,123 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:37:28,133 INFO :: Stop loss for BTCUSDT 1m | Current Price = 36408.4 (Entry price was 36371.8)
+2022-05-06 12:37:28,133 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:37:28,657 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.001&type=MARKET&timestamp=1651820848133&signature=36d55f717dd11e291ed8516d0ec4c35fdf16a9b1c21c1ab97a9d5593ca42eeb8 HTTP/1.1" 200 None
+2022-05-06 12:37:28,657 INFO :: Exit order on BTCUSDT 1m placed successfully
+2022-05-06 12:38:04,087 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:38:10,157 INFO :: Getting Binance trade size...
+2022-05-06 12:38:10,173 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:38:10,773 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651820890157&signature=1109cd9a092f8b9aad9c0f17d4567c0b9953affb99784cf9ad1016d039280051 HTTP/1.1" 200 None
+2022-05-06 12:38:10,778 INFO :: Binance current USDT balance = 2999.59207866, trade size = 0.001
+2022-05-06 12:38:10,778 INFO :: Long signal on BTCUSDT 1m
+2022-05-06 12:38:10,790 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:38:11,025 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.001&type=MARKET&timestamp=1651820890778&signature=4cb001d87a28e0b381fe44aec3b7b03932be7d7a64825222a632ec10c89f77e8 HTTP/1.1" 200 None
+2022-05-06 12:38:11,025 INFO :: Buy order placed on Binance | Status: new
+2022-05-06 12:38:13,042 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:38:13,565 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651820893037&symbol=BTCUSDT&orderId=3037864043&signature=75eb8ecd49f2e3c03fa83572fe0e4aae47a4ef6ef60ad721626c43e947ded250 HTTP/1.1" 200 None
+2022-05-06 12:38:13,565 INFO :: Binance order status: filled
+2022-05-06 12:39:05,845 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:40:22,029 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:41:02,878 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:41:19,955 INFO :: Stop loss for BTCUSDT 1m | Current Price = 36382.1 (Entry price was 36421.0)
+2022-05-06 12:41:19,960 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:41:20,488 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=SELL&quantity=0.001&type=MARKET&timestamp=1651821079955&signature=819693e0d4c846ddc76f01567e6b340ec9ee41510ca63ed0c3e40b68cdb32eaa HTTP/1.1" 200 None
+2022-05-06 12:41:20,488 INFO :: Exit order on BTCUSDT 1m placed successfully
+2022-05-06 12:41:20,488 INFO :: Getting Binance trade size...
+2022-05-06 12:41:20,497 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:41:21,015 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651821080488&signature=b47c9285b00268a2fa84e1807a5e51ae13df9e3403b1c4a5bbc887be6f99923d HTTP/1.1" 200 None
+2022-05-06 12:41:21,015 INFO :: Binance current USDT balance = 2999.52405742, trade size = 0.001
+2022-05-06 12:41:21,015 INFO :: Short signal on BTCUSDT 1m
+2022-05-06 12:41:21,015 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:41:21,378 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=SELL&quantity=0.001&type=MARKET&timestamp=1651821081015&signature=52011ab5a0a25962963686997e9c02723ccb06815c6b57c7b51e43f4035d63e6 HTTP/1.1" 200 None
+2022-05-06 12:41:21,378 INFO :: Sell order placed on Binance | Status: new
+2022-05-06 12:41:23,388 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:41:23,924 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651821083388&symbol=BTCUSDT&orderId=3037864173&signature=e3901bb96efd99d76910866dd138f2a012bb78c690a24a3610770cc85810acae HTTP/1.1" 200 None
+2022-05-06 12:41:23,924 INFO :: Binance order status: filled
+2022-05-06 12:42:00,916 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:43:00,157 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:43:18,685 INFO :: Stop loss for BTCUSDT 1m | Current Price = 36418.7 (Entry price was 36382.1)
+2022-05-06 12:43:18,700 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:43:19,192 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.001&type=MARKET&timestamp=1651821198685&signature=bee99fd10ab9342339d6bb227040206fc7d8d20cd3a7f78a923388ec67a566e0 HTTP/1.1" 200 None
+2022-05-06 12:43:19,192 INFO :: Exit order on BTCUSDT 1m placed successfully
+2022-05-06 12:43:19,192 INFO :: Getting Binance trade size...
+2022-05-06 12:43:19,192 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:43:19,733 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651821199192&signature=cfe5e89734f6dff40681c4a52e555ba9d0af490b9d7e70a8cb556f3d5ffdd4ae HTTP/1.1" 200 None
+2022-05-06 12:43:19,733 INFO :: Binance current USDT balance = 2999.4583371, trade size = 0.001
+2022-05-06 12:43:19,733 INFO :: Long signal on BTCUSDT 1m
+2022-05-06 12:43:19,733 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:43:19,976 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.001&type=MARKET&timestamp=1651821199733&signature=961c143a1f031be7c5c4ea5ebabdbf8950b51ee030f672ca636b8e8312fc9daa HTTP/1.1" 200 None
+2022-05-06 12:43:19,976 INFO :: Buy order placed on Binance | Status: new
+2022-05-06 12:43:21,987 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:43:22,529 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651821201987&symbol=BTCUSDT&orderId=3037864291&signature=262220279d68be898986462d1c9a598397c6aa675fdf8a10943bb4b7963d1f59 HTTP/1.1" 200 None
+2022-05-06 12:43:22,529 INFO :: Binance order status: filled
+2022-05-06 12:44:41,101 INFO :: Binance: subscribing to: solusdt@bookTicker
+2022-05-06 12:44:41,104 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:44:41,796 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=SOLUSDT HTTP/1.1" 200 None
+2022-05-06 12:45:02,904 INFO :: Binance: subscribing to: dogeusdt@bookTicker
+2022-05-06 12:45:02,908 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:45:03,609 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=DOGEUSDT HTTP/1.1" 200 None
+2022-05-06 12:46:35,038 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:46:35,792 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=DOGEUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-06 12:46:35,809 INFO :: Binance: subscribing to: dogeusdt@aggTrade
+2022-05-06 12:47:27,790 INFO :: Binance New candle for DOGEUSDT 1m
+2022-05-06 12:48:00,196 INFO :: Binance New candle for DOGEUSDT 1m
+2022-05-06 12:49:13,758 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:49:14,287 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-06 12:50:03,951 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 12:50:03,958 INFO :: Getting Binance trade size...
+2022-05-06 12:50:03,960 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:50:04,684 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651821603958&signature=014d789d67592bcf6775cdecfd04ecc4e3f50efc9ca354d1282c1a76e1599f2a HTTP/1.1" 200 None
+2022-05-06 12:50:04,687 INFO :: Binance current USDT balance = 2999.44376962, trade size = 0.001
+2022-05-06 12:50:04,687 INFO :: Short signal on BTCUSDT 1m
+2022-05-06 12:50:04,690 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:50:04,922 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=SELL&quantity=0.001&type=MARKET&timestamp=1651821604688&signature=d1351f31565aedea7383afb4ef7289d815495ec8a018439b4bcd529a3cb499f8 HTTP/1.1" 200 None
+2022-05-06 12:50:04,925 INFO :: Sell order placed on Binance | Status: new
+2022-05-06 12:50:06,942 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:50:07,515 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651821606937&symbol=BTCUSDT&orderId=3037864855&signature=33136e9514bf6e8156e5adbdae9e09bddc39b21ec52a3fc7e87332161ccf8ca7 HTTP/1.1" 200 None
+2022-05-06 12:50:07,520 INFO :: Binance order status: filled
+2022-05-06 12:50:34,140 INFO :: Stop loss for BTCUSDT 1m | Current Price = 36482.5 (Entry price was 36436.7)
+2022-05-06 12:50:34,144 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 12:50:34,672 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.001&type=MARKET&timestamp=1651821634140&signature=6727fad4d758e5410071c9c048e3920f0a0a84aa7b4faf9f9ad000166e6668ba HTTP/1.1" 200 None
+2022-05-06 12:50:34,676 INFO :: Exit order on BTCUSDT 1m placed successfully
+2022-05-06 12:52:22,107 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x00000180996C5550>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 12:52:22,108 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 12:52:22,399 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x00000180996C5580>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 12:52:22,400 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 19:40:08,501 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:09,122 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-06 19:40:09,149 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:09,756 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651846209144&signature=e29a3abbc3bf165e035f597c7feb2dddda5dc4069108978939fb4155661459b1 HTTP/1.1" 200 None
+2022-05-06 19:40:09,767 INFO :: Binance Futures Client successfully initialized
+2022-05-06 19:40:09,772 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-06 19:40:10,108 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-05-06 19:40:10,129 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-06 19:40:10,362 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-05-06 19:40:10,372 INFO :: Bitmex Client successfully initialized
+2022-05-06 19:40:10,518 INFO :: Binance connection opened
+2022-05-06 19:40:10,533 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-05-06 19:40:10,585 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:11,071 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-05-06 19:40:11,074 INFO :: Binance: subscribing to: ethusdt@bookTicker
+2022-05-06 19:40:11,075 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:11,299 INFO :: Bitmex connection opened
+2022-05-06 19:40:11,629 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-05-06 19:40:54,315 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:54,760 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-06 19:40:54,884 INFO :: Binance: subscribing to: btcusdt@aggTrade
+2022-05-06 19:40:55,517 INFO :: Getting Binance trade size...
+2022-05-06 19:40:55,519 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:55,775 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651846255517&signature=5226f8d5ef74fa393372de1deaec64fad1dd6b5b59ef8497874cb671e448535c HTTP/1.1" 200 None
+2022-05-06 19:40:55,778 INFO :: Binance current USDT balance = 2999.05972008, trade size = 0.001
+2022-05-06 19:40:55,778 INFO :: Short signal on BTCUSDT 1m
+2022-05-06 19:40:55,780 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:56,239 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=SELL&quantity=0.001&type=MARKET&timestamp=1651846255778&signature=5052893f9a8dea80ee5a85bbb6fe4fbdbedf891918ec84a76736ca9baa1fc293 HTTP/1.1" 200 None
+2022-05-06 19:40:56,241 INFO :: Sell order placed on Binance | Status: new
+2022-05-06 19:40:58,246 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:40:58,752 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651846258241&symbol=BTCUSDT&orderId=3037922243&signature=e689e20f0de6a65b2e2f3d57d838e1f45973fce4e0c9228a3a19f56a00f1c715 HTTP/1.1" 200 None
+2022-05-06 19:40:58,757 INFO :: Binance order status: filled
+2022-05-06 19:41:01,132 INFO :: Binance New candle for BTCUSDT 1m
+2022-05-06 19:41:11,682 INFO :: Stop loss for BTCUSDT 1m | Current Price = 35775.1 (Entry price was 35737.9)
+2022-05-06 19:41:11,688 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:12,303 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.001&type=MARKET&timestamp=1651846271683&signature=a32d6872b9cb2bfc4478cff6590f3b9920921e40dc07d0f78d2ce4bf4b98e5b0 HTTP/1.1" 200 None
+2022-05-06 19:41:12,313 INFO :: Exit order on BTCUSDT 1m placed successfully
+2022-05-06 19:41:40,797 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:41,590 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=ETHUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-06 19:41:41,733 INFO :: Binance: subscribing to: ethusdt@aggTrade
+2022-05-06 19:41:44,154 INFO :: Getting Binance trade size...
+2022-05-06 19:41:44,167 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:44,730 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651846304155&signature=dc917512232025aa77bd665929505bb5c2e2b86fac7b6e6b19e31043e80dfc3b HTTP/1.1" 200 None
+2022-05-06 19:41:44,738 INFO :: Binance current USDT balance = 2998.99391488, trade size = 0.011
+2022-05-06 19:41:44,738 INFO :: Long signal on ETHUSDT 1m
+2022-05-06 19:41:44,743 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:45,009 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651846304738&signature=f6d945cc1180c2de5176be1f950797eb394664ed6e2e173c707a1ec9e0e10e75 HTTP/1.1" 200 None
+2022-05-06 19:41:45,011 INFO :: Buy order placed on Binance | Status: new
+2022-05-06 19:41:47,014 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:47,597 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651846307012&symbol=ETHUSDT&orderId=854360279&signature=ccc7d4340d3f2b796d58a47d5fa96130a2c7e64382dfc02b40a844d9719bfac2 HTTP/1.1" 200 None
+2022-05-06 19:41:47,603 INFO :: Binance order status: filled
+2022-05-06 19:41:51,831 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2670.75 (Entry price was 2674.15)
+2022-05-06 19:41:51,837 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:52,320 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651846311832&signature=0bd10444e5f44f3da3a6ba2ac9a5fc9f7f379e668634962c12e5ce8fb3fe09c5 HTTP/1.1" 200 None
+2022-05-06 19:41:52,322 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-06 19:41:55,999 INFO :: Getting Binance trade size...
+2022-05-06 19:41:56,000 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:56,541 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651846315999&signature=8ece24c801e02380b07fb830befaa04bdd39ca56c902392eb32a5f3a7dc99fc0 HTTP/1.1" 200 None
+2022-05-06 19:41:56,545 INFO :: Binance current USDT balance = 2998.92398093, trade size = 0.011
+2022-05-06 19:41:56,545 INFO :: Long signal on ETHUSDT 1m
+2022-05-06 19:41:56,547 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:56,807 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651846316545&signature=720a6e8672008e1496e7838b13285e12f9d98020c54fea1271016e02edda105f HTTP/1.1" 200 None
+2022-05-06 19:41:56,813 INFO :: Buy order placed on Binance | Status: new
+2022-05-06 19:41:58,818 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-06 19:41:59,311 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651846318815&symbol=ETHUSDT&orderId=854360371&signature=5bef40894275d440bbbef90b7d169e52175499cb43617c8cccb9981bf4d986d3 HTTP/1.1" 200 None
+2022-05-06 19:41:59,315 INFO :: Binance order status: filled
+2022-05-06 19:42:01,900 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-06 19:42:34,798 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x000001EE0CD05550>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 19:42:34,799 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 19:42:35,001 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x000001EE0CD05580>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-06 19:42:35,002 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 09:35:19,703 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:35:20,425 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-07 09:35:20,425 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:35:20,942 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651896320425&signature=cf82cd279760a22db2614d862f2ffbbb89da5ec6263c056b7ca0b1f1cea6d774 HTTP/1.1" 200 None
+2022-05-07 09:35:20,942 INFO :: Binance Futures Client successfully initialized
+2022-05-07 09:35:20,942 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-07 09:35:21,269 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-05-07 09:35:21,287 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-07 09:35:21,505 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-05-07 09:35:21,507 INFO :: Bitmex Client successfully initialized
+2022-05-07 09:35:21,598 INFO :: Binance connection opened
+2022-05-07 09:35:21,598 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-05-07 09:35:21,653 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:35:22,182 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-05-07 09:35:22,197 INFO :: Binance: subscribing to: ethusdt@bookTicker
+2022-05-07 09:35:22,197 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:35:22,197 INFO :: Bitmex connection opened
+2022-05-07 09:35:22,701 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-05-07 09:35:59,386 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:00,063 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=ETHUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-07 09:36:00,190 INFO :: Binance: subscribing to: ethusdt@aggTrade
+2022-05-07 09:36:01,669 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 09:36:01,669 INFO :: Getting Binance trade size...
+2022-05-07 09:36:01,669 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:01,934 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651896361669&signature=09c629c4b3fd97b74c38c057abd1d4454fe69c18514296beecb0ed843d4e9a3d HTTP/1.1" 200 None
+2022-05-07 09:36:01,936 INFO :: Binance current USDT balance = 2998.90629662, trade size = 0.011
+2022-05-07 09:36:01,936 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 09:36:01,938 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:02,388 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651896361936&signature=549d75302f0571a489bfc57aad50a0acf46afa0f7f11a29ba0668401e262afb1 HTTP/1.1" 200 None
+2022-05-07 09:36:02,388 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 09:36:04,406 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:04,918 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651896364406&symbol=ETHUSDT&orderId=854490306&signature=6590950a5e15a6ef43d4a26e87e85f321f1e457498c3f4e36442e3ae29754520 HTTP/1.1" 200 None
+2022-05-07 09:36:04,920 INFO :: Binance order status: filled
+2022-05-07 09:36:51,847 INFO :: Take profit for ETHUSDT 1m | Current Price = 2667.03 (Entry price was 2669.78)
+2022-05-07 09:36:51,849 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:52,384 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651896411847&signature=b83d76dbacc77648fe19507405b19d38bccc4d75341085a06944f8d2be31603e HTTP/1.1" 200 None
+2022-05-07 09:36:52,386 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 09:36:52,386 INFO :: Getting Binance trade size...
+2022-05-07 09:36:52,388 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:52,868 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651896412386&signature=4dba98ddca4a7c55051721fb31b682205ffbf5a9c2df7908b1212b59ee256fa7 HTTP/1.1" 200 None
+2022-05-07 09:36:52,868 INFO :: Binance current USDT balance = 2998.83771664, trade size = 0.011
+2022-05-07 09:36:52,868 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 09:36:52,868 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:53,338 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651896412868&signature=13aa7d936aa84ee02b30bc111c29e3ac90d92165d62f348ebfd8c26635ebe498 HTTP/1.1" 200 None
+2022-05-07 09:36:53,340 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 09:36:55,342 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 09:36:55,598 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651896415342&symbol=ETHUSDT&orderId=854490451&signature=75a9ad1cd77e68d30d47c8f2314d1c0ca0618facad00921e9f61a60ac97a712d HTTP/1.1" 200 None
+2022-05-07 09:36:55,598 INFO :: Binance order status: filled
+2022-05-07 09:37:08,888 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000023AF64B5F70>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 09:37:08,889 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 09:37:09,028 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000023AF64B5FA0>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 09:37:09,028 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 10:59:33,051 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 10:59:33,608 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-05-07 10:59:33,614 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 10:59:34,134 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651901373613&signature=a5b56786d45af60dccc108385ce86207898d4c97777b3d7c53b60b2dea88326f HTTP/1.1" 200 None
+2022-05-07 10:59:34,138 INFO :: Binance Futures Client successfully initialized
+2022-05-07 10:59:34,139 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-07 10:59:34,592 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-05-07 10:59:34,609 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-05-07 10:59:34,759 INFO :: Binance connection opened
+2022-05-07 10:59:34,759 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-05-07 10:59:34,853 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-05-07 10:59:34,856 INFO :: Bitmex Client successfully initialized
+2022-05-07 10:59:34,986 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 10:59:35,236 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-05-07 10:59:35,238 INFO :: Binance: subscribing to: ethusdt@bookTicker
+2022-05-07 10:59:35,239 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 10:59:35,588 INFO :: Bitmex connection opened
+2022-05-07 10:59:35,732 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-05-07 11:02:27,631 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:02:28,328 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=ETHUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-07 11:02:28,450 INFO :: Binance: subscribing to: ethusdt@aggTrade
+2022-05-07 11:02:29,631 INFO :: Getting Binance trade size...
+2022-05-07 11:02:29,632 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:02:30,153 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651901549631&signature=f2d1a37aa1b331190c1f1041693453d211258e628b1de5472e64fa5b99ad873c HTTP/1.1" 200 None
+2022-05-07 11:02:30,156 INFO :: Binance current USDT balance = 2998.82312484, trade size = 0.011
+2022-05-07 11:02:30,156 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:02:30,158 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:02:30,646 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651901550156&signature=69f059e8614ac2ea21f5bda605eade1d98cdbc99793fd28b6541261c89b384f4 HTTP/1.1" 200 None
+2022-05-07 11:02:30,647 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:02:32,649 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:02:33,105 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651901552648&symbol=ETHUSDT&orderId=854511686&signature=9dd433da35b01057ba3a207c72c9a937065c4b9660202df1ccc73a2d0cb9877a HTTP/1.1" 200 None
+2022-05-07 11:02:33,107 INFO :: Binance order status: filled
+2022-05-07 11:03:05,605 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:04:03,531 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:04:35,295 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:04:36,154 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=ETHUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-05-07 11:05:03,570 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:05:03,570 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:06:07,783 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:06:07,783 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:06:07,795 INFO :: Getting Binance trade size...
+2022-05-07 11:06:07,797 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:06:08,380 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651901767795&signature=a1b180a3eca04e22c26d6ba44e8f274697b80919b2da48553f63f584a0bfbcab HTTP/1.1" 200 None
+2022-05-07 11:06:08,382 INFO :: Binance current USDT balance = 2998.81137442, trade size = 0.011
+2022-05-07 11:06:08,383 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:06:08,384 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:06:08,880 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651901768383&signature=c51c54cd1711cf1d2c8721fbee269f6a33f667bb35c76eeb8a65114b4f8e5a33 HTTP/1.1" 200 None
+2022-05-07 11:06:08,884 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:06:10,888 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:06:11,407 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651901770886&symbol=ETHUSDT&orderId=854512019&signature=bd335f37d429e8851ba270cedb2b0713bb258810b97349191db6f2ad0c11309e HTTP/1.1" 200 None
+2022-05-07 11:06:11,408 INFO :: Binance order status: filled
+2022-05-07 11:07:01,581 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:07:01,582 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:08:03,814 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:08:03,814 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:09:05,571 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:09:05,571 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:09:11,879 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2667.61 (Entry price was 2670.55)
+2022-05-07 11:09:11,880 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:09:12,381 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651901951879&signature=211c61a79f7d90e5fa81a18671d3583e4e5d1768ccbbb99de52cd86ac61eb50f HTTP/1.1" 200 None
+2022-05-07 11:09:12,382 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:09:12,383 INFO :: Getting Binance trade size...
+2022-05-07 11:09:12,384 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:09:12,881 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651901952383&signature=9a4a0e1ded4123ec6e666f1230068ca70c5a204de38f4783b93e965db1c13a9c HTTP/1.1" 200 None
+2022-05-07 11:09:12,883 INFO :: Binance current USDT balance = 2998.7621518, trade size = 0.011
+2022-05-07 11:09:12,883 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 11:09:12,884 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:09:13,333 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651901952883&signature=4f3f51b4ce08c83f6c2b4f60085ad00a99af6df15074e713a426f7275357da57 HTTP/1.1" 200 None
+2022-05-07 11:09:13,335 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 11:09:15,337 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:09:15,810 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651901955336&symbol=ETHUSDT&orderId=854512307&signature=7ec37786cd2cb4fbb6e1a4836ae0b4268f7ff0ffbac154e6f5150e00744d71a2 HTTP/1.1" 200 None
+2022-05-07 11:09:15,812 INFO :: Binance order status: filled
+2022-05-07 11:10:00,650 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:10:00,650 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:11:16,248 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:11:16,248 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:12:05,531 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:12:05,532 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:12:23,902 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2670.89 (Entry price was 2668.09)
+2022-05-07 11:12:23,904 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:12:24,449 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651902143902&signature=7c7e09af8a271d2bf530f0326d33680a75c886eed41da5c89dd0167d11817668 HTTP/1.1" 200 None
+2022-05-07 11:12:24,451 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:12:24,451 INFO :: Getting Binance trade size...
+2022-05-07 11:12:24,453 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:12:24,935 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651902144451&signature=5798fccccfaf306cca183c555060a49547b87d54177213be1dae71a8d11ee9c7 HTTP/1.1" 200 None
+2022-05-07 11:12:24,939 INFO :: Binance current USDT balance = 2998.71819788, trade size = 0.011
+2022-05-07 11:12:24,939 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:12:24,941 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:12:25,373 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651902144939&signature=08a2140b35406d45e46c4457c34588dad6fccea5c0554a29ad73a1da05b32f5e HTTP/1.1" 200 None
+2022-05-07 11:12:25,375 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:12:27,378 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:12:27,877 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651902147377&symbol=ETHUSDT&orderId=854512630&signature=10ca58f2a2b28ff2db776e862993aa0cb239814f4f321c27601f0dcabfad172a HTTP/1.1" 200 None
+2022-05-07 11:12:27,879 INFO :: Binance order status: filled
+2022-05-07 11:13:01,893 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:13:01,893 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:13:27,482 INFO :: Take profit for ETHUSDT 1m | Current Price = 2672.24 (Entry price was 2669.35)
+2022-05-07 11:13:27,484 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:13:27,978 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651902207482&signature=6792970552f8a7a1fba0133317488eb255982f575edbe7e76dc97b0b1c3d403c HTTP/1.1" 200 None
+2022-05-07 11:13:27,979 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:14:01,458 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:14:01,458 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:14:13,556 INFO :: Take profit for ETHUSDT 1m | Current Price = 2674.13 (Entry price was 2671.44)
+2022-05-07 11:14:13,559 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:14:14,087 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651902253557&signature=f2dc19c9fbff636a2ee542b13c965d2e82f79244b5c61d4f95249a78302ae608 HTTP/1.1" 200 None
+2022-05-07 11:14:14,089 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:14:14,089 INFO :: Getting Binance trade size...
+2022-05-07 11:14:14,090 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:14:14,570 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651902254089&signature=257f1e7c9608733d001cce843091fc01c9cd95d51c40ffd6fa1708d55b48972b HTTP/1.1" 200 None
+2022-05-07 11:14:14,573 INFO :: Binance current USDT balance = 2998.72185931, trade size = 0.011
+2022-05-07 11:14:14,573 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:14:14,575 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:14:14,796 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651902254573&signature=1449303004b30929c33e8e6ec3c793cc90656421f181f9cf3c6b95cb9db98661 HTTP/1.1" 200 None
+2022-05-07 11:14:14,798 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:14:16,800 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:14:17,291 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651902256799&symbol=ETHUSDT&orderId=854512844&signature=a605bcbfc961d4ef858ab7d6398f492e3a388130135ef5a7b7b3fd990700e61a HTTP/1.1" 200 None
+2022-05-07 11:14:17,292 INFO :: Binance order status: filled
+2022-05-07 11:15:03,489 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:15:03,489 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:16:03,493 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:16:03,493 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:16:03,497 INFO :: Getting Binance trade size...
+2022-05-07 11:16:03,499 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:16:04,028 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651902363497&signature=61118314cc25b241b70cde04246079904ecebc0413a697bfe66f86b35599059a HTTP/1.1" 200 None
+2022-05-07 11:16:04,031 INFO :: Binance current USDT balance = 2998.7100894, trade size = 0.011
+2022-05-07 11:16:04,031 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:16:04,032 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:16:04,500 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651902364031&signature=4fa0979974fc48b7f903f0fc15d342c36b6e9948892944bcd3fa31416847f67e HTTP/1.1" 200 None
+2022-05-07 11:16:04,502 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:16:06,503 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:16:06,737 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651902366502&symbol=ETHUSDT&orderId=854513109&signature=77a05193d942b5390061f9e957605c2894259c520a2485663cdd70dfd03ecb09 HTTP/1.1" 200 None
+2022-05-07 11:16:06,738 INFO :: Binance order status: filled
+2022-05-07 11:17:01,441 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:17:01,441 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:18:17,816 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:18:17,817 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:18:55,728 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2672.26 (Entry price was 2674.98)
+2022-05-07 11:18:55,730 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:18:56,233 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651902535728&signature=1f7e4c4c431d45f58dbe0498431b1d06d356f15e02d486c1d936b833cc379758 HTTP/1.1" 200 None
+2022-05-07 11:18:56,235 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:18:56,235 INFO :: Getting Binance trade size...
+2022-05-07 11:18:56,236 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:18:56,506 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651902536235&signature=e33c53cf0139a917fe1120157236992b23b8d1d7985391ffe0674d584784482a HTTP/1.1" 200 None
+2022-05-07 11:18:56,509 INFO :: Binance current USDT balance = 2998.65565419, trade size = 0.011
+2022-05-07 11:18:56,509 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 11:18:56,511 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:18:56,704 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651902536509&signature=f3d2e928fcb0c1e6a0a9775251c6bc9aa3dfe9f30e6cca60c5d790e8ece89494 HTTP/1.1" 200 None
+2022-05-07 11:18:56,707 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 11:18:58,711 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:18:59,213 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651902538709&symbol=ETHUSDT&orderId=854513405&signature=e84f2d87fa1e3605680820bc02e47202c22023136f0dcf50c13d7631a1d0e696 HTTP/1.1" 200 None
+2022-05-07 11:18:59,215 INFO :: Binance order status: filled
+2022-05-07 11:19:09,717 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:19:09,717 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:20:01,922 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:20:01,922 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:21:03,807 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:21:03,807 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:22:11,532 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:22:11,532 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:23:11,456 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:23:11,456 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:24:01,631 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:24:01,631 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:25:01,440 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:25:01,440 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:25:07,708 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2671.73 (Entry price was 2674.64)
+2022-05-07 11:25:07,710 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:25:08,234 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651902907708&signature=c0875c1feab19c2492a8990a78eab3a1ff5ed4f61917b68622aed61a54f7339a HTTP/1.1" 200 None
+2022-05-07 11:25:08,237 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:26:05,387 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:26:05,387 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:27:11,581 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:27:11,581 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:28:01,693 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:28:01,693 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:28:14,032 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2674.72 (Entry price was 2672.0)
+2022-05-07 11:28:14,037 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:14,518 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651903094033&signature=f7a0610f4381d51bb4b646fb8f5efe14ef50a16f4a72c858c72fed842f065c64 HTTP/1.1" 200 None
+2022-05-07 11:28:14,519 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:28:14,519 INFO :: Getting Binance trade size...
+2022-05-07 11:28:14,521 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:14,795 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651903094520&signature=39d2176bfb74de176b81e997a2af4c8d750613e1f18e16f25cf076efc8ae0686 HTTP/1.1" 200 None
+2022-05-07 11:28:14,797 INFO :: Binance current USDT balance = 2998.54799398, trade size = 0.011
+2022-05-07 11:28:14,797 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:28:14,798 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:15,227 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651903094797&signature=3af1cea5ae74b987a67e71d8bf440b39ae10c8889ae533c287fe77fbe0628dec HTTP/1.1" 200 None
+2022-05-07 11:28:15,230 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:28:17,241 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:17,736 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651903097240&symbol=ETHUSDT&orderId=854514321&signature=462e451a9a23fcc3fdf9f3acb514fba493d2d30aa155f5e02f126e216a4e542c HTTP/1.1" 200 None
+2022-05-07 11:28:17,741 INFO :: Binance order status: filled
+2022-05-07 11:28:45,494 INFO :: Take profit for ETHUSDT 1m | Current Price = 2677.71 (Entry price was 2675.0)
+2022-05-07 11:28:45,496 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:45,940 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651903125494&signature=1825713fd44435fe9fb57a9078cffe40878a399bd215fb7e6d40480de78668d9 HTTP/1.1" 200 None
+2022-05-07 11:28:45,944 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:28:45,944 INFO :: Getting Binance trade size...
+2022-05-07 11:28:45,945 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:46,420 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651903125944&signature=383ab339f6595610b4f9b538ff3706e69bd59037819108a1f2e7aa100b37ee20 HTTP/1.1" 200 None
+2022-05-07 11:28:46,424 INFO :: Binance current USDT balance = 2998.55337241, trade size = 0.011
+2022-05-07 11:28:46,424 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:28:46,425 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:46,860 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651903126424&signature=1493c7cced05626184bb4d296554f0601be97a8ed9e9ad85cb441ae4fd6bbb02 HTTP/1.1" 200 None
+2022-05-07 11:28:46,863 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:28:48,876 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:28:49,113 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651903128872&symbol=ETHUSDT&orderId=854514400&signature=cb60f476decc5470ce67595cb07c90216ee953d75586f4883d43ab280a416cc9 HTTP/1.1" 200 None
+2022-05-07 11:28:49,114 INFO :: Binance order status: filled
+2022-05-07 11:29:03,521 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:29:03,522 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:30:01,266 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:30:01,266 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:31:01,338 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:31:01,338 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:31:01,345 INFO :: Getting Binance trade size...
+2022-05-07 11:31:01,347 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:31:01,906 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651903261346&signature=740f2d5ebc33a430a98b0ee2ed4a859b531c87168f5a74e080af8b038a5975af HTTP/1.1" 200 None
+2022-05-07 11:31:01,911 INFO :: Binance current USDT balance = 2998.54158961, trade size = 0.011
+2022-05-07 11:31:01,911 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:31:01,913 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:31:02,340 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651903261911&signature=394990f1db877c749ee4db9d395425478b3b7cc5ee24f0e2c7123764992484a2 HTTP/1.1" 200 None
+2022-05-07 11:31:02,343 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:31:04,348 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:31:04,870 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651903264347&symbol=ETHUSDT&orderId=854514681&signature=dd067f622af35d1cf34adb3cda9e4bcb4d9b7dd7e28895114cb8a7ef71b0b3f1 HTTP/1.1" 200 None
+2022-05-07 11:31:04,874 INFO :: Binance order status: filled
+2022-05-07 11:32:01,529 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:32:01,529 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:33:05,649 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:33:05,649 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:34:01,922 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:34:01,922 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:35:01,806 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:35:01,807 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:36:07,798 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:36:07,798 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:36:07,810 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2675.22 (Entry price was 2677.91)
+2022-05-07 11:36:07,812 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:36:08,359 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651903567810&signature=3ac7dbb5d8435a1f7827c9478ae4f804939f5d090175b926351f91517ea71378 HTTP/1.1" 200 None
+2022-05-07 11:36:08,361 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:36:08,361 INFO :: Getting Binance trade size...
+2022-05-07 11:36:08,362 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:36:08,891 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651903568361&signature=d02c06ed2299367b6a1796f98a5e503c1a75f68a14a538f61c956c6a4deff28f HTTP/1.1" 200 None
+2022-05-07 11:36:08,894 INFO :: Binance current USDT balance = 2998.47964831, trade size = 0.011
+2022-05-07 11:36:08,894 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 11:36:08,894 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:36:09,084 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651903568894&signature=a5dd6b736e18b857b0314c3b5e4e9721b5cd88da608655df5d06ada29baf1f9c HTTP/1.1" 200 None
+2022-05-07 11:36:09,089 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 11:36:09,090 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2675.22 (Entry price was 2678.07)
+2022-05-07 11:36:09,091 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:36:09,286 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651903569090&signature=98e6ec7446e595d63c7290890509e1e44a770aae352dcd1fa4bb3ca9c47be033 HTTP/1.1" 200 None
+2022-05-07 11:36:09,291 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:36:11,095 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:36:11,576 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651903571092&symbol=ETHUSDT&orderId=854515190&signature=7f65d2aa93422373c46dd827628fba26955174d15caec146651566caa7160979 HTTP/1.1" 200 None
+2022-05-07 11:36:11,580 INFO :: Binance order status: filled
+2022-05-07 11:37:03,670 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:37:03,670 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:37:53,508 INFO :: Take profit for ETHUSDT 1m | Current Price = 2671.79 (Entry price was 2674.5)
+2022-05-07 11:37:53,513 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:37:54,016 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651903673508&signature=b6f0cdcf7a9cb03300f951115e9748b0b02d03fca0a00f45d31436a937c85773 HTTP/1.1" 200 None
+2022-05-07 11:37:54,021 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:37:54,022 INFO :: Getting Binance trade size...
+2022-05-07 11:37:54,023 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:37:54,549 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651903674022&signature=aae01792a4c6fb750a7ce392cef90c37ca3523328da45149bd2b3ac42d126a17 HTTP/1.1" 200 None
+2022-05-07 11:37:54,555 INFO :: Binance current USDT balance = 2998.4364371, trade size = 0.011
+2022-05-07 11:37:54,555 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 11:37:54,556 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:37:55,030 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651903674555&signature=edab9f6567df6aec253c1ca8c58b7aa4adc80f34306b30546e7447b574231c9e HTTP/1.1" 200 None
+2022-05-07 11:37:55,036 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 11:37:57,041 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:37:57,282 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651903677039&symbol=ETHUSDT&orderId=854515434&signature=1d95ff1f07f1d00c6601713b969d40f864bba9769ab1f90598363b75a260175c HTTP/1.1" 200 None
+2022-05-07 11:37:57,286 INFO :: Binance order status: filled
+2022-05-07 11:38:01,674 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:38:01,675 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:39:01,589 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:39:01,589 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:40:09,808 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:40:09,809 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:41:05,784 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:41:05,784 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:41:05,789 INFO :: Getting Binance trade size...
+2022-05-07 11:41:05,790 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:41:06,348 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651903865789&signature=025c0eee206317ccd6a66d1f942f13667ac48deba513e4ed9f5b2d96d1a1e2d6 HTTP/1.1" 200 None
+2022-05-07 11:41:06,353 INFO :: Binance current USDT balance = 2998.4246851, trade size = 0.011
+2022-05-07 11:41:06,353 INFO :: Long signal on ETHUSDT 1m
+2022-05-07 11:41:06,354 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:41:06,552 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651903866353&signature=143160a6fac7a0c295d41d82b397cada2879f51fee0f7f3578bed999ca2e6547 HTTP/1.1" 200 None
+2022-05-07 11:41:06,553 INFO :: Buy order placed on Binance | Status: new
+2022-05-07 11:41:08,568 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:41:09,045 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651903868566&symbol=ETHUSDT&orderId=854515810&signature=2889a535640a4a18012d3faae201e2cfdb141b15ad318ec379b14b58a79aa78f HTTP/1.1" 200 None
+2022-05-07 11:41:09,048 INFO :: Binance order status: filled
+2022-05-07 11:42:01,877 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:42:01,877 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 239439 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:12,886 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 239439 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:12,886 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 233718 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 233718 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 233718 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 233718 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 233718 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:12,886 WARNING :: Binance ETHUSDT: 233718 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 231765 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 231765 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 229585 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 229585 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 227917 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 227917 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 227878 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,037 WARNING :: Binance ETHUSDT: 227878 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,176 WARNING :: Binance ETHUSDT: 221770 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,176 WARNING :: Binance ETHUSDT: 221770 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,176 WARNING :: Binance ETHUSDT: 219678 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,176 WARNING :: Binance ETHUSDT: 219678 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 219686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 219686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 218016 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 218016 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 218016 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 218016 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 215915 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 215915 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 208158 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 208158 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 206054 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 206054 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 198851 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 198851 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 197464 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,184 WARNING :: Binance ETHUSDT: 197464 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 196083 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 196083 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 194118 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 194118 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 194103 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 194103 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 192034 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 192034 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 189858 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,192 WARNING :: Binance ETHUSDT: 189858 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,320 WARNING :: Binance ETHUSDT: 189986 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,320 WARNING :: Binance ETHUSDT: 189986 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 173834 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 173834 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 173808 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 173808 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 170148 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 170148 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 168097 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 168097 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 163603 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 163603 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 161823 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 161823 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 160205 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 160205 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 160205 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 160205 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 156069 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 156069 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 154004 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 154004 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 148162 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 148162 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,328 WARNING :: Binance ETHUSDT: 141970 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,336 WARNING :: Binance ETHUSDT: 141978 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,336 WARNING :: Binance ETHUSDT: 136261 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,336 WARNING :: Binance ETHUSDT: 136261 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,336 WARNING :: Binance ETHUSDT: 136261 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,336 WARNING :: Binance ETHUSDT: 136261 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,336 INFO :: Stop loss for ETHUSDT 1m | Current Price = 2669.11 (Entry price was 2671.87)
+2022-05-07 11:47:13,336 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:13,829 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651904233336&signature=80c3aa8055d268582d6ffe0cbb476895ddda1b19d0ac39f5cecde6bf17bd2250 HTTP/1.1" 200 None
+2022-05-07 11:47:13,837 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:47:13,837 WARNING :: Binance ETHUSDT: 134648 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,837 WARNING :: Binance ETHUSDT: 134648 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,837 WARNING :: Binance ETHUSDT: 131746 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,837 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:13,837 WARNING :: Binance ETHUSDT: 131746 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,837 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 130474 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 130474 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 128441 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 128441 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 128415 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 128415 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 124570 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 124570 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,853 WARNING :: Binance ETHUSDT: 122319 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 122327 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 122327 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 122327 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 118580 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 118580 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 106665 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 106665 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 106640 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,861 WARNING :: Binance ETHUSDT: 106640 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 98622 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 98622 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 84453 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 84453 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 84453 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 84453 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 82354 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 82354 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 82354 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 82354 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 80730 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,869 WARNING :: Binance ETHUSDT: 80730 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,877 WARNING :: Binance ETHUSDT: 78656 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,877 WARNING :: Binance ETHUSDT: 78656 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,877 WARNING :: Binance ETHUSDT: 74499 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:13,877 INFO :: Take profit for ETHUSDT 1m | Current Price = 2668.07 (Entry price was 2670.91)
+2022-05-07 11:47:13,885 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:14,345 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651904233877&signature=e91e09f74235d5fff8c2fe73affa02a9892fc3dce1391e9f3983152588c7b068 HTTP/1.1" 200 None
+2022-05-07 11:47:14,347 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:47:14,347 INFO :: Getting Binance trade size...
+2022-05-07 11:47:14,348 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:14,625 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651904234347&signature=20d92acab78a42a7de372c1731fc2ce91d1d870bec5b4c51eb06cc19772a7694 HTTP/1.1" 200 None
+2022-05-07 11:47:14,625 INFO :: Binance current USDT balance = 2998.37877895, trade size = 0.011
+2022-05-07 11:47:14,625 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 11:47:14,633 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:15,107 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651904234625&signature=95081e6ff44c17435d58cc2a10652e819bce094be1b74bd4a004b27560e4ae08 HTTP/1.1" 200 None
+2022-05-07 11:47:15,107 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 75736 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 73661 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 73661 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 73636 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 73636 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 73636 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 73636 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 70646 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 70646 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 67921 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 67921 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 67921 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 67921 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 66939 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 66939 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 65763 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,114 WARNING :: Binance ETHUSDT: 65763 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 55868 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 55868 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 47948 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 47948 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 46989 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 45835 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 45835 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 45224 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 45224 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 45224 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 45224 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 43740 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 39901 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 39901 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 38061 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 38061 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 38061 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,122 WARNING :: Binance ETHUSDT: 38061 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 38007 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 38007 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 37686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 37686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 37686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 37686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 37686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 37686 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 35862 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 35862 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 34302 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 34302 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 34238 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 34238 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 28057 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 28057 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 7858 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:15,130 WARNING :: Binance ETHUSDT: 7858 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:15,130 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:47:15,138 INFO :: Getting Binance trade size...
+2022-05-07 11:47:15,138 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:15,658 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651904235138&signature=85c963e45efeeed5e1118948e66af413f4a2aad544b1de42fa888a490cea7ae0 HTTP/1.1" 200 None
+2022-05-07 11:47:15,662 INFO :: Binance current USDT balance = 2998.36704019, trade size = 0.011
+2022-05-07 11:47:15,667 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 11:47:15,667 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:16,135 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651904235667&signature=f3fa92afabc97aa8ba69bf553ff47e137ec8d5bc94f59f957872dcf7421d456b HTTP/1.1" 200 None
+2022-05-07 11:47:16,135 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 11:47:16,135 WARNING :: Binance ETHUSDT: 2645 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:16,135 WARNING :: Binance ETHUSDT: 2645 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:16,135 WARNING :: Binance ETHUSDT: 2594 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:16,135 WARNING :: Binance ETHUSDT: 2594 milliseconds of difference between the current time and the trade time
+2022-05-07 11:47:17,139 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:17,419 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651904237115&symbol=ETHUSDT&orderId=854516429&signature=962c2b6ccb671228e371f0d7cec9ea7c607aa008f2aaee3707e20d6d410d03dc HTTP/1.1" 200 None
+2022-05-07 11:47:17,443 INFO :: Binance order status: filled
+2022-05-07 11:47:18,142 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:47:18,400 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651904238142&symbol=ETHUSDT&orderId=854516430&signature=691f239d1fbec3f514c5a70e7ad7096be22bb91f23f5e8aaf521314aea4fe5fd HTTP/1.1" 200 None
+2022-05-07 11:47:18,400 INFO :: Binance order status: filled
+2022-05-07 11:48:03,303 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:48:03,303 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:48:55,150 INFO :: Take profit for ETHUSDT 1m | Current Price = 2665.0 (Entry price was 2667.9)
+2022-05-07 11:48:55,150 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:48:55,671 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651904335150&signature=fa69f1e3a624c6f585eb5bf7f5ca3a17b0cd57a1833f9570daffbf4be9455896 HTTP/1.1" 200 None
+2022-05-07 11:48:55,671 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:48:55,671 INFO :: Getting Binance trade size...
+2022-05-07 11:48:55,679 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:48:56,236 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1651904335671&signature=64f90666189368d3d64bd62903775ed2735dd818ee8c5a9d9d454099ebf4944c HTTP/1.1" 200 None
+2022-05-07 11:48:56,244 INFO :: Binance current USDT balance = 2998.37536539, trade size = 0.011
+2022-05-07 11:48:56,244 INFO :: Short signal on ETHUSDT 1m
+2022-05-07 11:48:56,252 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:48:56,707 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&quantity=0.011&type=MARKET&timestamp=1651904336244&signature=0bfe16c0c3f403c52c9f9ab50bae69c818d5a2838fab3f5e06a3e6c474549e30 HTTP/1.1" 200 None
+2022-05-07 11:48:56,707 INFO :: Sell order placed on Binance | Status: new
+2022-05-07 11:48:56,715 INFO :: Take profit for ETHUSDT 1m | Current Price = 2665.0 (Entry price was 2667.9)
+2022-05-07 11:48:56,715 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:48:56,915 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&quantity=0.011&type=MARKET&timestamp=1651904336715&signature=64f84381727b8c07d131d0dc133599e6cd565514186848deef5238367183766c HTTP/1.1" 200 None
+2022-05-07 11:48:56,915 INFO :: Exit order on ETHUSDT 1m placed successfully
+2022-05-07 11:48:58,719 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-05-07 11:48:59,256 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1651904338719&symbol=ETHUSDT&orderId=854516775&signature=9d649f81421045875e1103a3c6f039e1495dcf5073fb182c74174be57ce09d66 HTTP/1.1" 200 None
+2022-05-07 11:48:59,264 INFO :: Binance order status: filled
+2022-05-07 11:49:07,199 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:49:07,199 INFO :: Binance New candle for ETHUSDT 1m
+2022-05-07 11:49:36,098 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x00000204773E5550>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 11:49:36,098 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 11:49:36,250 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x00000204773E5580>>: _on_close() takes 2 positional arguments but 4 were given
+2022-05-07 11:49:36,250 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
